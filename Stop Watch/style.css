@@ -1,0 +1,48 @@
+
+#heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+body{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px ;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.timer h1{
+    margin-right: 30px;
+    font-size: 60px;
+    background-color:lightgray;
+    border: 2px solid black;
+    padding: 8px 20px 8px 20px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.button{
+    margin-right: 10px;
+}
+
+.button button{
+       margin-right: 10px;
+       margin-left: 15px;
+       padding: 10px 20px 10px 20px;
+       font-weight: bold;
+       border: 2px solid brown;
+       border-radius: 20px;
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
